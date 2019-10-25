@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/category/category",
+    "pages/history/history",
+    "pages/logistics/logistics",
+    "pages/me/me",
+    "pages/shopcart/shopcart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar/home-start.png",
+        "iconPath": "images/tabbar/home-end.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabbar/shopcart-start.png",
+        "iconPath": "images/tabbar/shopcart-end.png",
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/tabbar/shop-start.png",
+        "iconPath": "images/tabbar/shop-end.png",
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/tabbar/logistics-start.png",
+        "iconPath": "images/tabbar/logistics-end.png",
+        "pagePath": "pages/logistics/logistics",
+        "text": "物流信息"
+      },
+      {
+        "selectedIconPath": "images/tabbar/user-start.png",
+        "iconPath": "images/tabbar/user-end.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  }
+}
