@@ -1,3 +1,4 @@
 <!--index.wxml-->
 <view class="container">
+    <button type="primary" bindtap='send'>A</button>
 </view>
